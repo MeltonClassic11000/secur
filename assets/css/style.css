@@ -10294,7 +10294,7 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 }
 
 .hero-style2 {
-    padding: 196px 0 500px
+    padding: 150px 0 305px;
 }
 
 @media (max-width: 1399px) {
@@ -10323,6 +10323,10 @@ ul.comment-list:has(>.ot-comment-item~.ot-comment-item):first-child>.ot-post-com
 
 .hero-style2 .hero-title {
     margin-bottom: 14px
+}
+
+.hero-style2 .hero-title.v2{
+    font-size: clamp(36px,4.8vw,48px);
 }
 
 .hero-style2 .hero-title span {
