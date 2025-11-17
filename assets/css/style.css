@@ -2647,6 +2647,7 @@ textarea.is-invalid {
 .scroll-top:after {
     content: "\f062";
     font-family: var(--icon-font);
+    font-weight: 900;
     position: absolute;
     text-align: center;
     line-height: 35px;
