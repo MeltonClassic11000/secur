@@ -6839,10 +6839,6 @@ a.text-theme:hover,
     color: var(--theme-color)
 }
 
-.header-logo {
-    padding-top: 15px;
-    padding-bottom: 15px
-}
 
 .header-logo a img {
     width: 220px;
