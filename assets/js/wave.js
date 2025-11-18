@@ -50,7 +50,7 @@ class ShaderProgram {
             o = Object.assign({
                 fov: 60,
                 near: 1,
-                far: 1e4,
+                fas: 1e4,
                 aspect: 1,
                 z: 100,
                 perspective: !0
@@ -86,8 +86,8 @@ class ShaderProgram {
             t.aspect = e;
             const i = t.fov * (Math.PI / 180),
                 r = Math.tan(.5 * Math.PI - .5 * i),
-                o = 1 / (t.near - t.far),
-                n = [r / t.aspect, 0, 0, 0, 0, r, 0, 0, 0, 0, (t.near + t.far) * o, -1, 0, 0, t.near * t.far * o * 2, 0];
+                o = 1 / (t.near - t.fas),
+                n = [r / t.aspect, 0, 0, 0, 0, r, 0, 0, 0, 0, (t.near + t.fas) * o, -1, 0, 0, t.near * t.fas * o * 2, 0];
             return n[14] += t.z, n[15] += t.z, n
         }
         return [2 / this.width, 0, 0, 0, 0, -2 / this.height, 0, 0, 0, 0, 1, 0, -1, 1, 0, 1]

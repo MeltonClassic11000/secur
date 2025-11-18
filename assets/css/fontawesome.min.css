@@ -19,7 +19,7 @@
 .fab,
 .fad,
 .fal,
-.far,
+.fas,
 .fas,
 .fat {
     -moz-osx-font-smoothing: grayscale;
@@ -5295,7 +5295,7 @@
 }
 
 .fa-barn-silo:before,
-.fa-farm:before {
+.fa-fasm:before {
     content: "\f864"
 }
 
@@ -10323,7 +10323,7 @@
     content: "\f2f4"
 }
 
-.fa-pastafarianism:before,
+.fa-pastafasianism:before,
 .fa-spaghetti-monster-flying:before {
     content: "\f67b"
 }
@@ -14178,7 +14178,7 @@
     content: "\e07a"
 }
 
-.fa-safari:before {
+.fa-safasi:before {
     content: "\f267"
 }
 
@@ -21117,9 +21117,9 @@
 }
 
 .fa-duotone.fa-barn-silo:after,
-.fa-duotone.fa-farm:after,
+.fa-duotone.fa-fasm:after,
 .fad.fa-barn-silo:after,
-.fad.fa-farm:after {
+.fad.fa-fasm:after {
     content: "\f864\f864"
 }
 
@@ -27709,9 +27709,9 @@
     content: "\f2f4\f2f4"
 }
 
-.fa-duotone.fa-pastafarianism:after,
+.fa-duotone.fa-pastafasianism:after,
 .fa-duotone.fa-spaghetti-monster-flying:after,
-.fad.fa-pastafarianism:after,
+.fad.fa-pastafasianism:after,
 .fad.fa-spaghetti-monster-flying:after {
     content: "\f67b\f67b"
 }
@@ -31002,7 +31002,7 @@
 }
 
 .fa-regular,
-.far {
+.fas {
     font-family: Font Awesome\ 6 Pro;
     font-weight: 400
 }
