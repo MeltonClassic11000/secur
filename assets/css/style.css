@@ -1062,9 +1062,9 @@ ul.wp-block-rss a {
 }
 
 @media (min-width: 1300px) {
-    .row {
+    /* .row {
         --bs-gutter-x: 30px
-    }
+    } */
 
     .gx-44 {
         --bs-gutter-x: 44px
